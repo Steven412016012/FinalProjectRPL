@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Step5_RPL_Interface.jnlp">
+  <information>
+    <title>Step5_RPL_Interface</title>
+    <vendor>Steven Wunardi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Step5_RPL_Interface.jar" size="4586" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Step5_RPL_Interface" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="step5_rpl_interface.Step5_RPL_Interface"  name="Step5_RPL_Interface" />
+  <update check="always"/>
+</jnlp>

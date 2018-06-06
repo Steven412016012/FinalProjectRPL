@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="step5_rpl_interface.Interface_homeController">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Home">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Tampilan Awal" />
+              <MenuItem mnemonicParsing="false" text="Register" />
+                  <MenuItem mnemonicParsing="false" text="Login/LogOut" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Pilihan Game" />
+            <Menu mnemonicParsing="false" text="Keranjang Item">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Transaksi " />
+                  <MenuItem mnemonicParsing="false" text="Riwayat Transaksi" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane layoutY="25.0" prefHeight="382.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="85.0" layoutY="75.0" prefHeight="201.0" prefWidth="411.0" text="GAME PAYMENT APPLICATIONS" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold Italic" size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
